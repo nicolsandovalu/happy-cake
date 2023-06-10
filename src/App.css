@@ -13,20 +13,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +22,59 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+  background-color: rgb(231, 90, 111);
+  font-size: 20px;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+span{
+  color: white !important;
+}
+
+.contacto{
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+button{
+  background-color: rgb(243, 56, 84);
+  width: 5rem;
+  color: white;
+}
+form{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mensaje{
+ height: 200px;
+}
+
+img{
+  width: 300px;
+  margin: 20px;
+}
+
+.home{
+  margin: 40px;
+  padding: 20px;
+}
+
+p{
+  font-size: 20px;
+  margin: 30px;
+  padding-top: 30px;
+}
+
+
